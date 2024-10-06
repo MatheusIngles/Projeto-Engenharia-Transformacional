@@ -1,0 +1,226 @@
+\documentclass[article,a4paper,12pt,brazil,sumario=tradicional]{abntex2}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{array}
+\usepackage{subfig}
+\usepackage[utf8]{inputenc}
+\usepackage{indentfirst}
+\usepackage{hyperref}
+\usepackage[hyphenbreaks]{breakurl}
+\usepackage[alf,abnt-etal-text=it]{abntex2cite}
+\usepackage[brazil]{babel}
+\usepackage[space]{grffile}
+\usepackage{fancyvrb}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage{xcolor}
+
+
+
+\title{Grupo 6 - Engenharia Transformacional}
+\date{\today}
+
+\begin{document}
+\maketitle
+\begin{flushright}
+Bruno De Andrade Macedo - 202305850
+
+João Moura Brasileiro  -202307793
+
+Mateus Melo Fernandes - 202306480
+
+Matheus Endlich Silveira - 202305392
+
+Pedro Henrique Novelli Soares - 202306364
+
+\vspace{10px}
+
+Emerson Scheidegger
+\footnote{\label{Professor}\href{https://br.linkedin.com/in/emersonsch}{Linkedin do Professor}} 
+
+\end{flushright}
+\newpage
+\tableofcontents
+\newpage
+
+\section{Introdução}
+    \subsection{O que É:}
+    A Realidade Virtual (RV) é uma tecnologia que cria ambientes digitais tridimensionais imersivos, permitindo ao usuário interagir com esses mundos simulados através de dispositivos como óculos e controladores. Usada inicialmente para entretenimento, a RV hoje tem aplicações em áreas como educação, medicina e treinamento.
+    \subsection{Como funciona?}
+    A Realidade Virtual (RV) funciona criando ambientes tridimensionais simulados, que o usuário explora com óculos e controladores. Sensores rastreiam os movimentos da cabeça e corpo, ajustando a visão em tempo real para criar uma sensação de imersão
+\section{Historia}
+    \vspace{15 px}
+    \subsection{O Começo:}
+        Apesar de a Realidade Virtual ter começado como um conceito abstrato que sempre permeou a imaginação das pessoas, foi apenas quando as invenções modernas começaram a surgir que essa ideia começou a ganhar forma. De fato, a ideia foi colocada no papel pela primeira vez em 1839, quando o britânico Charles Wheatstone criou os óculos estereoscópicos. Esses óculos usavam espelhos com imagens (desenhos ou fotos) na frente e tinham uma angulação específica para simular a projeção de uma imagem sobre a outra, criando um pseudo '3D' que proporcionava uma certa sensação de volume e imersão.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.5\linewidth]{Imagens/um-oculos-3d-antigo-27161522742192.png}
+            \caption{Oculos esterioscopios}
+            \label{fig:enter-label}
+        \end{figure}
+        Todavia, o conceito foi mais explorado em um livro chamado "Pygmalion's Spectacles". Nele, é descrito um óculos individual que projetava hologramas com sons e até cheiros, permitindo ao usuário entrar em uma realidade paralela. Essa foi a primeira e mais precisa descrição do que viria a ser a realidade virtual.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.5\linewidth]{Imagens/Livro.png}
+            \caption{Livro citado acima.}
+            \label{fig:enter-label}
+        \end{figure}
+    \subsection{Começo da decada de 70:}
+        Muito tempo depois, Morton Heilig criou um pseudo videogame chamado Sensorama. Esse dispositivo misturava muitos conceitos de cinema e jogos, além dos descritos no livro, para criar uma cadeira móvel que imergia o jogador em um vídeo interativo.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.5\linewidth]{Imagens/image.png}
+            \caption{Sensorama}
+            \label{fig:enter-label}
+        \end{figure}
+         Já em 1961, engenheiros da Philco desenvolveram um projeto que consistia em um projetor de estímulo visual, também utilizado para reconhecimento de objetos. Todavia, o principal objetivo era usar os óculos para controlar uma câmera remotamente. De certa forma, esses óculos chamaram a atenção do exército americano, que acabou empregando-os em alguns treinamentos.
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.5\linewidth]{Imagens/oculos.png}
+            \caption{Oculos da philco}
+            \label{fig:enter-label}
+        \end{figure}
+        Pouco tempo depois, Ivan Sutherland criou "The Ultimate Display", cuja ideia era tornar impossível diferenciar o real do virtual. Em seguida, ele desenvolveu o dispositivo chamado "A Espada de Dâmocles", considerado o primeiro headset funcional com um computador capaz de gerar um mundo virtual e interagir com objetos. No entanto, sua principal desvantagem era o peso, que exigia que fosse sustentado por uma haste.
+        
+        Ainda nessa década, programadores da extinta Atari decidiram colocar as mãos na massa e realmente cunhar o termo "Realidade Virtual". Além disso, lançaram vários produtos, incluindo os primeiros aparelhos de realidade virtual realmente comercializáveis. Vale mencionar também o significativo investimento da NASA nessa tecnologia para treinar astronautas.
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.5\linewidth]{Imagens/Eye Phone.png}
+                \label{fig:enter-label}
+            \end{figure}
+        \subsection{Anos 90: Games}
+            A partir dessa década, diversas empresas começaram a investir pesado nessa ideia, como a Virtuality, SEGA, Nintendo e Atari. Isso ajudou a tornar a realidade virtual, que até então era explorada apenas por cientistas e pessoas mais afortunadas, mais popular e acessível para o público em geral. 
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.5\linewidth]{Imagens/Nintendo.png}
+                \caption{Nintendo Vr}
+                \label{fig:enter-label}
+            \end{figure}
+            Entretanto, após o auge, sempre vem a queda. A ideia de Realidade Virtual, mesmo após sua popularização, se provou inacessível para o público. Com a chegada da internet, que se mostrou extremamente mais prática, a Realidade Virtual entrou em sério declínio, sendo deixada de lado e colocada na gaveta por um tempo.
+        \subsection{2012: Querida eu voltei}
+            Em 2012, através de um financiamento no Kickstarter, surgiu o famoso óculos "Rift", que aprimorava em tudo os seus antecessores, resolvendo um dos principais problemas: o peso. Além disso, era necessário apenas um computador de qualidade decente para poder utilizá-lo. O que realmente fez o Rift estourar foi que, pouco tempo após seu lançamento, seu software e framework foram liberados para a comunidade, o que impulsionou a criação de novos conteúdos para o dispositivo.
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.5\linewidth]{Imagens/Times.png}
+                \caption{O criador na revista Times}
+                \label{fig:enter-label}
+            \end{figure}
+            Todavia, aqui surge um dos maiores problemas dos VRs: a famosa sensação de enjoo ao usá-los por muito tempo. Isso fez com que sua popularidade diminuísse ao longo do tempo, já que o Rift não oferecia nenhum suporte para ajudar o consumidor a lidar com esse desconforto. Mesmo com esses problemas, a empresa foi comprada pelo Facebook, e o projeto continua até hoje sob nova direção.
+        \subsection{Tempos atuais}
+            Após tantos momentos, hoje inúmeras empresas estão cada vez mais presentes no mercado de realidade virtual, tornando difícil contar todas nos dedos. Houve vários avanços, como a eliminação da necessidade de um computador acoplado e a possibilidade de usar a tecnologia até mesmo com um celular. Falar em realidade virtual hoje é falar de uma tecnologia que está em constante expansão e se consolida como uma das principais tendências para o futuro, sempre buscando superar seu maior obstáculo: o elevado custo. Segue uma linha do tempo de lançamentos de VR:
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.7\linewidth]{Imagens/Linha do tempo.png}
+                \caption{Linha do tempo}
+                \label{fig:enter-label}
+            \end{figure}
+\section{Como Acessar?}
+        Como Acessar o VR
+    Escolha do Dispositivo: Selecione um headset de acordo com seu orçamento e necessidades (standalone ou conectado).
+    Configuração: Headsets como o Meta Quest 3 só precisam de conexão à internet, enquanto outros, como o PlayStation VR2, requerem um console ou PC.
+    Espaço e Controle: É essencial garantir uma área livre de obstáculos para se mover com segurança e usar controles para interagir com o ambiente virtual.
+    Instalação de Jogos e Aplicativos: Baixe jogos e aplicativos via lojas online como a Meta Store ou SteamVR.
+    Imersão: Vista o headset e experimente um mundo virtual interativo, com gráficos realistas e rastreamento de movimento.
+    Melhores Aparelhos VR e Preços:
+    \begin{itemize}
+    \item Meta Quest 3 - \$500, standalone e versátil.
+    \item PlayStation VR2 - \$550, para PS5.
+    \item Valve Index - \$1000, altíssima qualidade para PC.
+    \item HTC Vive Pro 2 - \$1400, experiência premium com qualidade 5K.
+    \item Meta Quest Pro - \$1000, voltado para uso profissional.
+    \item HP Reverb G2 - \$600, alta resolução.
+    \item Oculus Quest 2 - \$300, acessível e popular.
+    \item Pico 4 - \$375, boa alternativa ao Quest 2.
+    \item HTC Vive Cosmos - \$700, boa opção custo-benefício.
+    \item Samsung Odyssey+ - \$500, excelente qualidade por um preço competitivo.
+    \item Atualmente, o Meta Quest 3 é considerado o melhor aparelho, oferecendo equilíbrio entre  desempenho e preço, sem a necessidade de um computador ou console adicional.
+    \end{itemize}
+\section{É utilizado? Mercado Atual.}
+
+Com a crescente disponibilidade da realidade virtual (RV), mais indústrias e serviços estão explorando suas aplicações. Por exemplo, do ponto de vista prático, a imersão em ambientes virtuais pode ajudar usuários e consumidores a entenderem e explorarem particularidades e benefícios de diversos produtos e serviços de uma forma muito diferente daquela que estão acostumados em seu cotidiano. Devido à natureza dessa tecnologia e aos processos pelos quais as pessoas interagem com ela (através da visão e da presença no ambiente virtual), as experiências tornam-se únicas e lúdicas, criando uma conexão emocional com os diversos aspectos e informações apresentadas nessas simulações.
+
+A realidade virtual está se expandindo rapidamente em diversas áreas, como:
+
+\subsection{Jogos e Entretenimento}
+A RV no mundo dos jogos tem crescido exponencialmente a cada ano. Já existem centenas de jogos, desde simuladores para tarefas cotidianas, como o \textit{Tabletop Simulator}, até grandes títulos como \textit{Skyrim}, \textit{Resident Evil Village}, \textit{Five Nights at Freddy's: Help Wanted} e \textit{Half-Life: Alyx}. Apesar do investimento significativo e do crescimento da RV nos últimos anos, o alto custo dos equipamentos (óculos, controles, etc.) ainda impede sua expansão mais ampla. Por esse motivo, muitas empresas estão buscando novas maneiras de introduzir jogos de RV para pessoas que não podem adquirir esses dispositivos, ajudando a aquecer o mercado.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{Imagens/TopSteamVR2022.png}
+    \caption{Games Em VR}
+    \label{fig:enter-label}
+\end{figure}
+\subsection{Comunicação à Distância e Educação}
+Algumas escolas e universidades ao redor do mundo já utilizam a RV para melhorar a aprendizagem dos alunos, especialmente na educação a distância (EAD), proporcionando uma maior proximidade com o conteúdo e os professores. Os benefícios incluem envolvimento imediato, melhor compreensão de tópicos complexos, maior retenção de informações e redução de distrações. Além disso, a RV também está sendo implementada em salas de aula presenciais, enriquecendo a experiência educativa.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{Imagens/Child-wearing-classvr-headset.png}
+    \caption{Um óculos de Realidade Virtual feito para ser utilizado em Escolas}
+    \label{fig:enter-label}
+\end{figure}
+\subsection{Simulação e Treinamento de Pilotos}
+O treinamento de pilotos está sendo revolucionado pela RV. Um exemplo é a Força Aérea dos EUA, que pretende transformar sua metodologia de treinamento utilizando essa tecnologia. Anteriormente, os simuladores de voo tradicionais exigiam cerca de 28 semanas de treinamento e custavam aproximadamente 3 milhões de dólares por aluno. Com a adição da RV, o tempo de treinamento pode ser reduzido para 20 semanas, com um custo de apenas 5 mil dólares por aluno, uma melhora significativa tanto no tempo quanto nos custos. 
+
+Essa mudança não se limita apenas aos pilotos. Uma empresa alemã desenvolveu um aparelho que combina RV com exercícios físicos, simulando saltos de paraquedas. A tecnologia também é utilizada para simulações de veículos e aeronaves, proporcionando uma maneira segura e econômica de treinar soldados na operação e manutenção desses veículos. O Exército dos EUA, por exemplo, está combinando o treinamento virtual e ao vivo em seu \textit{Ambiente Sintético de Treinamento} (STE), ampliando o alcance de suas atividades de simulação.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{Imagens/csm_Loft_R22_Sim_with_IOS_Operator_9d87f05838.png}
+    \caption{Utilizando o Microsoft Flight Simulator, Pilotos treinam a pilotagem.}
+    \label{fig:enter-label}
+\end{figure}
+\subsection{Teleconferências}
+A RV também oferece um grande potencial para aprimorar as teleconferências, que hoje são limitadas a áudio e vídeo. Com a introdução da imersão em RV, a sensação de estar fisicamente presente em uma reunião seria muito mais realista, melhorando tanto reuniões formais quanto aproximando pessoas distantes. Embora ainda em desenvolvimento, essas tecnologias mostram um bom prognóstico do que as teleconferências e chamadas de vídeo podem se tornar no futuro.
+
+\subsection{Concepção de Projetos para Design, Arquitetura e Urbanismo}
+A fim de interagir melhor com o universo tridimensional, a RV está sendo utilizada para imergir os usuários em espaços multifacetados. Muitos clientes ou usuários não conseguem visualizar conceitos e características de um produto ou serviço em 3D como os profissionais da área, e é aqui que a RV entra em cena. Ela permite que os clientes "entrem" em projetos arquitetônicos virtuais, visualizando o ambiente de todos os ângulos — ao redor, atrás, acima e abaixo. Isso facilita a percepção de distância e perspectiva. Dessa forma, no universo da arquitetura, urbanismo e paisagismo, fica muito mais fácil para os clientes visualizarem um projeto completo, podendo compartilhar suas impressões e solicitar modificações antes da construção, o que reduz custos associados a mudanças tardias.
+
+\subsection{Treinamento de Militares}
+A adoção da RV nas forças armadas remonta à década de 1980, quando Tom Furness apresentou o primeiro simulador de voo virtual para treinamento de pilotos da Força Aérea. Esses simuladores fornecem uma solução segura e econômica para simular vários cenários e condições de voo, desde manobras básicas até situações complexas de combate. A RV é usada em todas as três áreas de serviço militar — marinha, exército e aeronáutica —, principalmente para treinamentos em situações de perigo, onde o soldado pode aprender a reagir sem se expor a riscos reais. Além disso, a RV está sendo utilizada no tratamento de transtornos pós-traumáticos, ajudando soldados a se readaptarem a situações de estresse em um ambiente controlado.
+
+\subsection{Medicina}
+A RV também é aplicada em diversas áreas da medicina, como o tratamento da dor, treinamento cirúrgico e tratamento de transtornos e fobias. Sua capacidade de recriar cenas realistas repetidas vezes a torna ideal para o treinamento de profissionais de saúde, como médicos, enfermeiros e cuidadores. A RV já é utilizada em procedimentos como cirurgias e partos, permitindo que novos médicos pratiquem sem riscos para pacientes reais. Além disso, novos procedimentos e práticas podem ser testados em ambiente virtual, proporcionando feedbacks imediatos sobre as ações realizadas.
+
+Na psicologia, a RV é usada como técnica complementar para tratar diversos transtornos e fobias, como transtorno do pânico, medo de injeções e agulhas, aerofobia (medo de voar), transtorno obsessivo-compulsivo (TOC), ansiedade e muitos outros. Um uso bastante eficiente é na vacinação de crianças, que se distraem com jogos e desenhos em RV, tornando a experiência menos dolorosa. No tratamento de fobias, o paciente é exposto gradualmente a seus medos em um ambiente seguro, semelhante a um videogame. Durante o tratamento, o nível de estresse é monitorado, e a RV geralmente é associada a outros métodos terapêuticos, como a hipnose, para aumentar a eficácia.
+
+De acordo com profissionais da área, a RV tem um potencial abrangente no tratamento de vários tipos de fobias e transtornos, facilitando o processo terapêutico e melhorando os resultados.
+
+\section{Perspectiva para o futuro.}
+Sobre as principais tendências e inovações esperadas para os próximos anos. O que esperar?
+
+Integração com outras tecnologias que surgiram recentemente: A RV provavelmente se integrará com a Inteligência Artificial (IA) e a Realidade Aumentada (RA) para criar experiências ainda mais interativas e personalizadas. Com a IA, os mundos virtuais poderão se adaptar dinamicamente às ações do usuário, oferecendo cenários que reagem de maneira mais natural.
+
+Treinamentos de alta precisão: Empresas e governos vão cada vez mais utilizar a RV para treinamento de profissionais em áreas como a saúde e aviação, além de simulações de situações extremas, como catástrofes naturais e operações militares. A segurança, o custo e a precisão de tais treinamentos farão da RV a tecnologia ideal para preparação em cenários de alto risco.
+
+Avanços na qualidade gráfica e sensorial: A qualidade gráfica terá melhoras significativas, com a evolução das telas e o aumento da capacidade de processamento. Além disso, empresas estão investindo em dispositivos hápticos avançados, que não apenas simulam vibrações, mas também temperaturas e texturas, tornando a experiência virtual ainda mais próxima da realidade. 
+
+Redução de barreiras de entrada: O custo dos dispositivos de RV deve diminuir nos próximos anos, e o desempenho vai melhorar exponencialmente. Com o tempo, veremos uma RV mais acessível, com headsets mais baratos, mais leves e sem fio, facilitando o uso por longos períodos.
+
+Interface cérebro-computador (BCI): No futuro, pode haver uma interação direta entre o cérebro e o ambiente virtual, por meio de tecnologias de interface cérebro-computador. Isso poderia eliminar a necessidade de controladores físicos e oferecer uma forma mais intuitiva de navegar e interagir em ambientes virtuais.
+
+Educação transformada: A educação é uma das áreas que mais se beneficiará da RV no futuro. Imagine aulas de história onde os alunos possam "viajar" para a Roma Antiga ou explorações científicas em ambientes simulados. Essa capacidade de aprender através da imersão transformará completamente os métodos tradicionais de ensino.
+
+Socialização e mundos virtuais compartilhados: Com a evolução da RV, o conceito de "metaverso" (um universo virtual compartilhado) está se tornando realidade. Empresas como Meta estão investindo pesado para criar plataformas onde pessoas de todo o mundo possam se encontrar, trabalhar e socializar em ambientes virtuais. No futuro, poderemos ver um aumento na migração para esses espaços virtuais, onde atividades cotidianas, como reuniões de trabalho (usando ambiente virtual, podendo substituir o home office), compras e até eventos culturais (fortnite é um grande exemplo, que eventos em ambiente virtual dão certo), poderão ser realizadas integralmente no metaverso.
+
+Expansão para além dos jogos (Conclusão): Embora os jogos tenham sido o motor inicial da RV, as futuras aplicações irão muito além. Áreas como o teletrabalho, turismo virtual, terapia psicológica e simulações militares estão explorando como a RV pode melhorar a produtividade e fornecer soluções inovadoras. Por exemplo, no turismo, a RV permitirá que os usuários visitem locais ao redor do mundo sem sair de casa, o que pode se tornar uma alternativa sustentável às viagens tradicionais.
+
+\section{Conclusão}
+
+A Realidade Virtual (RV) tem mostrado um potencial incrível para transformar não apenas o entretenimento, mas também diversas indústrias, como a educação, saúde, arquitetura, treinamento militar e o próprio mercado de trabalho. Ao longo dos anos, a RV evoluiu de uma ideia conceitual para uma tecnologia inovadora e acessível, permitindo experiências imersivas que antes só podiam ser imaginadas. 
+
+Apesar dos desafios, como o alto custo dos dispositivos e a questão da sensação de enjoo, os avanços contínuos indicam que esses obstáculos serão superados. A tendência para o futuro é a integração da RV com outras tecnologias emergentes, como a inteligência artificial e a realidade aumentada, além de uma expansão significativa das suas aplicações em campos mais amplos, como o turismo virtual e o metaverso.
+
+A RV não é apenas uma ferramenta de entretenimento, mas um recurso poderoso que pode moldar a maneira como vivemos, trabalhamos e interagimos com o mundo ao nosso redor. Com investimentos crescentes e inovações contínuas, a Realidade Virtual promete se consolidar como uma das principais tecnologias do futuro, transformando o modo como experimentamos o mundo digital e físico.
+
+\section{Bibliografia}
+\begin{itemize}
+    \item \href{https://www.youtube.com/watch?v=DjkIhyrSzvw\&ab_channel=TecMundo}{https://www.youtube.com/watch?v=DjkIhyrSzvw\&ab\_channel=TecMundo}
+    \item \href{https://www.youtube.com/watch?v=TSsU0In0gNQ\&ab_channel=UniversoOmega}{https://www.youtube.com/watch?v=TSsU0In0gNQ\&ab\_channel=UniversoOmega}
+    \item \href{https://www.youtube.com/watch?v=xEx6FZ_dNrA\&ab_channel=BrunoRataque}{https://www.youtube.com/watch?v=xEx6FZ\_dNrA\&ab\_channel=BrunoRataque}
+    \item \href{https://www.tecmundo.com.br/mercado/123579-a-historia-da-realidade-virtual.htm}{https://www.tecmundo.com.br/mercado/123579-a-historia-da-realidade-virtual.htm}
+    \item \href{https://pt.wikipedia.org/wiki/Realidade_virtual}{https://pt.wikipedia.org/wiki/Realidade\_virtual}
+    \item \href{https://arborxr.com/blog/virtual-reality-in-the-military-simulating-combat-training/%7D%7B}{https://arborxr.com/blog/virtual-reality-in-the-military-simulating-combat-training}
+    \item \href{https://www.iberdrola.com/inovacao/realidade-virtual}{https://www.iberdrola.com/inovacao/realidade-virtual}
+    \item \href{https://olhardigital.com.br/2024/04/14/ciencia-e-espaco/vr-faz-missao-juice-observar-lua-de-jupiter-antes-de-chegar-la/}{https://olhardigital.com.br/2024/04/14/ciencia-e-espaco/vr-faz-missao-juice-observar-lua-de-jupiter-antes-de-chegar-la/}
+    \item \href{https://www.tecmundo.com.br/software/280722-realidade-virtual-superar-realidade-tradicional-vivemos.htm}{https://www.tecmundo.com.br/software/280722-realidade-virtual-superar-realidade-tradicional-vivemos.htm}
+    \item \href{https://olhardigital.com.br/2024/06/05/medicina-e-saude/mapa-cerebral-criado-com-ia-pode-revolucionar-tratamentos-medicos/}{https://olhardigital.com.br/2024/06/05/medicina-e-saude/mapa-cerebral-criado-com-ia-pode-revolucionar-tratamentos-medicos/}
+
+\end{itemize}
+\end{document}
